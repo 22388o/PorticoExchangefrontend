@@ -7,12 +7,16 @@ Frontend for Portico Exchange. Requiriments: Node.Js/NPM and Node Lightning Netw
 
 ````````````````````````
 git clone https://github.com/PorticoExchange/PorticoExchangefrontend.git
+
 ````````
 cd boltz-frontend && npm i
+
 ````````````````
 make required changes as per your environment to .env file
+
 ````````
 start the app
+
+
 ````````
 npm run start
-````````
