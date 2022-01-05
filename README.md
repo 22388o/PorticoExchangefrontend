@@ -1,4 +1,4 @@
-# Portico Exchange-frontend
+# Portico Exchange-frontend ⚡️
 
 [![Build Status](https://travis-ci.org/BoltzExchange/boltz-frontend.svg?branch=master)](https://travis-ci.org/BoltzExchange/boltz-frontend)
 
