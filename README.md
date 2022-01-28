@@ -11,7 +11,7 @@ Frontend for Portico Exchange. Requiriments: Node.Js/NPM and Node Lightning Netw
 `cd porticoExchangefrontend  && npm i && npm run compile`  
 * Start btc & lnd  
 `npm run docker:regtest`
-* Start rsk  
+* Start LN 
 `npm run porticoexchangefrontend:geth`
 * Fund a regtest account and deploy latest contracts  
 * Copy boltz.conf to ~/.boltz/boltz.conf and modify as needed  
