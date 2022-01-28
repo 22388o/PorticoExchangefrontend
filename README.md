@@ -25,7 +25,6 @@ Frontend for Portico Exchange. Requiriments: Node.Js/NPM and Node Lightning Netw
 
 
 ## acknowledgement
-* This work is supported by a grant from [SOVRYN](https://sovryn.app).  
 * Portico Exchange a fork of [Boltz](https://github.com/BoltzExchange/boltz-backend).
 
 ## documentation
