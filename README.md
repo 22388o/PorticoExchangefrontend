@@ -25,7 +25,7 @@ Frontend for Portico Exchange. Requiriments: Node.Js/NPM and Node Lightning Netw
 
 
 ## acknowledgement
-* Portico Exchange a fork of [Boltz](https://github.com/BoltzExchange/boltz-backend).
+* Portico Exchange is a fork of [Boltz](https://github.com/BoltzExchange/boltz-backend).
 
 ## documentation
 * API documentation: [Read the Docs](https://docs.boltz.exchange/en/latest/)
