@@ -1,5 +1,5 @@
 const colors = {
-  seaPink: '#EF9391',
+  seaPink: '	#0000ff',
   elephantBlue: '#134357',
   matisseBlue: '#1677A0',
   celloBlue: '#1E485B',
