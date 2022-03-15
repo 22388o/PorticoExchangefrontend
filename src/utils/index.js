@@ -4,12 +4,17 @@ import {
   boltzApi,
   bitcoinNetwork,
   litecoinNetwork,
+  LiquidNetwork,
   bitcoinExplorer,
   litecoinExplorer,
+  LiquidNetworkExplorer
   bitcoinAddress,
   litecoinAddress,
+  LiquidBitcoinAddress,
   bitcoinInvoice,
   litecoinInvoice,
+  liquidbitcoinInvoice,
+  
 } from '../constants';
 
 export const decimals = new BigNumber('100000000');
