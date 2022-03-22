@@ -10,8 +10,10 @@ import BackGround from '../../components/background';
 import {
   bitcoinLnd,
   litecoinLnd,
+  LiquidBitcoinLnd
   bitcoinLndOnion,
   litecoinLndOnion,
+  LiquidBitcoinOnion
 } from '../../constants';
 
 const styles = theme => ({
@@ -45,7 +47,7 @@ const styles = theme => ({
   },
 });
 
-const twitterLink = 'https://twitter.com/boltzhq';
+const twitterLink = 'https://twitter.com/porticoexchange';
 
 class Faq extends React.Component {
   render() {
@@ -65,14 +67,10 @@ class Faq extends React.Component {
               title={style => <h1 className={style}>What is Boltz?</h1>}
               content={style => (
                 <p className={style}>
-                  Boltz is an instant and non custodial crypto currency exchange
-                  that focuses on the adoption of second layer scaling
-                  technologies like the Lightning network and the privacy of its
-                  users. We neither use any trackers nor log any data that could
-                  identify our users. <br /> <br />
-                  Please note that Boltz is currently in its alpha stage so dont
-                  be too reckless when using it. If you experience any issues or
-                  have some feedback feel free to{' '}
+                  Portico Exchange is an instant and non custodial exchange with focus
+                   in cross chain between layers Bitcoin with Lightning Network, Layer 1 and Liquid Network.
+                   <br /> <br />
+                  Please note that this product is experimental.{' '}
                   <Link to={twitterLink} text={'contact us'} />.
                 </p>
               )}
@@ -86,7 +84,7 @@ class Faq extends React.Component {
               content={style => (
                 <p className={style}>
                   Non custodial exchanges give you full control over your funds.
-                  All trades on Boltz are executed in a way that we cannot steal
+                  All trades on Portico Exchange are executed in a way that we cannot steal
                   any money from you. Period.
                   <br />
                   <br />
@@ -108,7 +106,7 @@ class Faq extends React.Component {
                   source code and verify that the claims above are valid because
                   everything is open source and can be found on{' '}
                   <Link
-                    to={'https://github.com/boltzexchange'}
+                    to={'https://github.com/porticoexchange'}
                     text={'our GitHub'}
                   />
                   . Also we will soon add a version of our frontend that you can
@@ -118,7 +116,7 @@ class Faq extends React.Component {
             />
             <Question
               title={style => (
-                <h1 className={style}>What wallets are supported by Boltz?</h1>
+                <h1 className={style}>What wallets are supported by Portico Exchange?</h1>
               )}
               content={style => (
                 <p className={style}>
@@ -133,7 +131,7 @@ class Faq extends React.Component {
             <Question
               title={style => (
                 <h1 className={style}>
-                  How to open Lightning channels with Boltz?
+                  How to open Lightning channels with Portico Exchange?
                 </h1>
               )}
               content={style => (
