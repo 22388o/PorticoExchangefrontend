@@ -7,13 +7,14 @@ import {
   LiquidNetwork,
   bitcoinExplorer,
   litecoinExplorer,
-  LiquidNetworkExplorer
+  LiquidNetworkExplorer,
   bitcoinAddress,
   litecoinAddress,
   LiquidBitcoinAddress,
   bitcoinInvoice,
   litecoinInvoice,
   liquidbitcoinInvoice,
+  USDTInvoice,
   
 } from '../constants';
 
