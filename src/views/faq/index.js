@@ -64,11 +64,11 @@ class Faq extends React.Component {
           </View>
           <View className={classes.questionTab}>
             <Question
-              title={style => <h1 className={style}>What is Boltz?</h1>}
+              title={style => <h1 className={style}>What is Portico?</h1>}
               content={style => (
                 <p className={style}>
                   Portico Exchange is an instant and non custodial exchange with focus
-                   in cross chain between layers Bitcoin with Lightning Network, Layer 1 and Liquid Network.
+                   in cross chain between layers Bitcoin with Lightning Network, Layer one and Liquid Network.
                    <br /> <br />
                   Please note that this product is experimental.{' '}
                   <Link to={twitterLink} text={'contact us'} />.
@@ -91,7 +91,7 @@ class Faq extends React.Component {
                   Either the trade happens entirely and you get the exact amount
                   of the asset you were promised or you will be able to do a
                   refund. This concept is called <i>atomicity</i> and it is
-                  achieved by Boltz with so-called <i>Submarine Swaps</i>. You
+                  achieved by Portico with so-called <i>Submarine Swaps</i>. You
                   can read more about them in{' '}
                   <Link
                     to={
@@ -124,7 +124,7 @@ class Faq extends React.Component {
                   Although we encourage you to run a full node and manage your
                   own keys, there are custodial wallets solutions, like{' '}
                   <Link to={'https://bluewallet.io/'} text={'BlueWallet'} />,
-                  that work out of the box and can make testing Boltz very easy.
+                  that work out of the box and can make testing Portico very easy.
                 </p>
               )}
             />
