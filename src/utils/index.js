@@ -15,6 +15,7 @@ import {
   litecoinInvoice,
   liquidbitcoinInvoice,
   USDTInvoice,
+  LNURLInvoice
   
 } from '../constants';
 
