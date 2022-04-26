@@ -32,4 +32,4 @@ Node.Js/NPM and Node Lightning Network or LND
 * Portico Exchange is a fork of [Boltz](https://github.com/BoltzExchange/boltz-backend).
 
 ## documentation
-* API documentation: [Read the Docs](https://docs.boltz.exchange/en/latest/)
+* [Read the Docs](https://layertwolabs.gitbook.io/portico-exchange/)
