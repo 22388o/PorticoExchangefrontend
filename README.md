@@ -1,7 +1,7 @@
 # Portico Exchange-frontend ⚡️
 
 [![Build Status](https://travis-ci.org/BoltzExchange/boltz-frontend.svg?branch=master)](https://travis-ci.org/BoltzExchange/boltz-frontend)
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/23c4d816-70a4-4c7a-954e-c278d334ee53/deploy-status)](https://app.netlify.com/sites/snazzy-souffle-d2f5b3/deploys)
 
 Frontend for Portico Exchange. 
 
