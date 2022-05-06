@@ -13,11 +13,12 @@ import {
   liquidbitcoinAddress,
   bitcoinInvoice,
   litecoinInvoice,
-  USDTInvoice,
-  LNURLInvoice,
+  usdtInvoice,
+  lnurlInvoice,
   erc20tokenaddress,
   rbtcswapaddress,
   erc20swapaddress,
+  taprootaddress
   
 } from '../constants';
 
