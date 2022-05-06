@@ -4,18 +4,20 @@ import {
   boltzApi,
   bitcoinNetwork,
   litecoinNetwork,
-  LiquidNetwork,
+  liquidNetwork,
   bitcoinExplorer,
   litecoinExplorer,
-  LiquidNetworkExplorer,
+  liquidnetworkExplorer,
   bitcoinAddress,
   litecoinAddress,
-  LiquidBitcoinAddress,
+  liquidbitcoinAddress,
   bitcoinInvoice,
   litecoinInvoice,
-  liquidbitcoinInvoice,
   USDTInvoice,
-  LNURLInvoice
+  LNURLInvoice,
+  erc20tokenaddress,
+  rbtcswapaddress,
+  erc20swapaddress,
   
 } from '../constants';
 
