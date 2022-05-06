@@ -10,10 +10,13 @@ import BackGround from '../../components/background';
 import {
   bitcoinLnd,
   litecoinLnd,
-  LiquidBitcoinLnd
+  liquidbitcoinLnd,
+  rbtclnd,
+  lnurlnd,
   bitcoinLndOnion,
   litecoinLndOnion,
-  LiquidBitcoinOnion
+  liquidbitcoinOnion,
+  rbtcOnion
 } from '../../constants';
 
 const styles = theme => ({
