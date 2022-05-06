@@ -6,7 +6,7 @@ import View from '../view';
 import Button from '../button';
 import { navigation } from '../../actions';
 import { boltzOnion } from '../../constants';
-const portioexchange_logo = require('../../asset/icons/568889 (1).png');
+const porticoexchange_logo = require('../../asset/icons/568889(1).png');
 
 class MobileNavigationBar extends React.Component {
   constructor() {
