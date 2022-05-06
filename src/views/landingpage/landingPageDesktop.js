@@ -39,7 +39,7 @@ const LandingPageDeskTopContent = ({
       <View className={classes.wrapper}>
         <View className={classes.infoWrapper}>
            <p className={classes.title}>
-            Portico Exchangeis a fork of the excellent<br /> boltz.exchange.
+            Portico Exchange is a fork of the excellent<br /> boltz.exchange.
           </p>
           <p className={classes.title}>
             Instant, Account-Free & <br /> Non-Custodial.
