@@ -15,7 +15,7 @@ import { bitcoinNetwork, litecoinNetwork } from '../../constants';
 import { generateKeys, randomBytes, navigation } from '../../actions';
 import { getHexString } from '../../utils';
 
-const porticoexchange_logo = require('../../asset/icons/boltz_logo.png');
+const boltz_logo = require('../../asset/icons/boltz_logo.png');
 
 const LandingPageDeskTopContent = ({
   classes,
