@@ -15,7 +15,7 @@ import { bitcoinNetwork, litecoinNetwork } from '../../constants';
 import { generateKeys, randomBytes, navigation } from '../../actions';
 import { getHexString } from '../../utils';
 
-const porticoexchange_logo = require('../../asset/icons/568889 (1).png');
+const porticoexchange_logo = require('../../asset/icons/boltz_logo.png');
 
 const LandingPageDeskTopContent = ({
   classes,
@@ -38,6 +38,9 @@ const LandingPageDeskTopContent = ({
       <NavigationBar />
       <View className={classes.wrapper}>
         <View className={classes.infoWrapper}>
+           <p className={classes.title}>
+            Portico Exchangeis a fork of the excellent<br /> boltz.exchange.
+          </p>
           <p className={classes.title}>
             Instant, Account-Free & <br /> Non-Custodial.
           </p>
