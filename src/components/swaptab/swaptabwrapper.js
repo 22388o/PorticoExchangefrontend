@@ -3,6 +3,21 @@ import BigNumber from 'bignumber.js';
 import PropTypes from 'prop-types';
 import { ServiceWarnings } from '../../constants';
 import { decimals } from '../../utils';
+import Web3 from 'web3';
+import Web3Modal from "web3modal";
+
+import { ContractABIs } from 'boltz-core';
+// // @ts-ignore 
+// import { ERC20 } from 'boltz-core/typechain/ERC20';
+// import { ERC20Swap } from 'boltz-core/typechain/ERC20Swap';
+// import { EtherSwap } from 'boltz-core/typechain/EtherSwap';
+import { Signer, providers, Contract, Wallet } from 'ethers';
+
+import {
+  erc20tokenaddress,
+  rbtcswapaddress,
+  erc20swapaddress,
+} from '../../constants';
 
 class SwapTabWrapper extends React.Component {
   constructor(props) {
@@ -21,14 +36,16 @@ class SwapTabWrapper extends React.Component {
       disabled: false,
       error: false,
       inputError: false,
-      base: 'LTC',
+      base: 'LBTC',
       quote: 'BTC ⚡',
       minAmount: new BigNumber('0'),
       maxAmount: new BigNumber('0'),
-      baseAmount: new BigNumber('0.05'),
+      baseAmount: new BigNumber('0.005'),
       quoteAmount: new BigNumber('0'),
       feeAmount: new BigNumber('0'),
       errorMessage: '',
+       web3: null,
+      provider: null,
     };
   }
 
