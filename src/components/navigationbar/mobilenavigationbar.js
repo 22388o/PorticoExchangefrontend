@@ -6,7 +6,7 @@ import View from '../view';
 import Button from '../button';
 import { navigation } from '../../actions';
 import { boltzOnion } from '../../constants';
-const porticoexchange_logo = require('../../asset/icons/568889 (1).png');
+const boltz_logo = require('../../asset/icons/boltz_logo.png');
 
 class MobileNavigationBar extends React.Component {
   constructor() {
@@ -75,7 +75,7 @@ class MobileNavigationBar extends React.Component {
             <Button
               className={classes.responsiveBtn}
               external
-              text="API"
+              text="Whitepaper"
               to="https://layertwolabs.gitbook.io/portico-exchange/"
             />
             <Button
