@@ -6,7 +6,7 @@ import View from '../view';
 import Button from '../button';
 import { navigation } from '../../actions';
 import { boltzOnion } from '../../constants';
-const porticoexchange_logo = require('../../asset/icons/568889(1).png');
+const porticoexchange_logo = require('../../asset/icons/568889 (1).png');
 
 class MobileNavigationBar extends React.Component {
   constructor() {
@@ -30,13 +30,13 @@ class MobileNavigationBar extends React.Component {
         <View className={classes.icon}>
           <View className={classes.logo} onClick={() => navigation.navHome()}>
             <img
-              src={boltz_logo}
+              src={porticoexchange_logo}
               height={50}
               width={50}
               className={''}
               alt="logo"
             />
-            <span className={classes.logoText}>Boltz</span>
+            <span className={classes.logoText}>Portico</span>
           </View>
           <MdMenu
             onClick={() => this.toggleMenu()}
@@ -70,19 +70,19 @@ class MobileNavigationBar extends React.Component {
               className={classes.btn}
               external
               text="Twitter"
-              to="https://twitter.com/boltzhq"
+              to="https://twitter.com/porticoexchange"
             />
             <Button
               className={classes.responsiveBtn}
               external
               text="API"
-              to="https://docs.boltz.exchange/en/latest/"
+              to="https://layertwolabs.gitbook.io/portico-exchange/"
             />
             <Button
               className={classes.btn}
               external
               text="Github"
-              to="https://github.com/BoltzExchange"
+              to="https://github.com/PorticoExchange"
             />
           </View>
         ) : (
