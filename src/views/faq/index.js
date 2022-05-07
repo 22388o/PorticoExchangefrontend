@@ -123,7 +123,7 @@ class Faq extends React.Component {
               )}
               content={style => (
                 <p className={style}>
-                  All regular and Lightning wallets are supported by Boltz.
+                  All regular and Lightning wallets are supported by Portico.
                   Although we encourage you to run a full node and manage your
                   own keys, there are custodial wallets solutions, like{' '}
                   <Link to={'https://bluewallet.io/'} text={'BlueWallet'} />,
@@ -168,6 +168,15 @@ class Faq extends React.Component {
                   which is a percentage of the traded amount and goes to our
                   pocket for providing a <i>(hopefully)</i> useful service to
                   our users.
+                </p>
+                title={style => (
+                <h1 className={style}>Acknowledgements</h1>
+              )}
+              content={style => (
+                <p className={style}>
+                  Portico Exchange is a fork of <Link to={'https://boltz.exchange'} text={'Boltz'} />. 
+                  We are a team of independent developers working to unique RSK, Liquid Network, Lightning Network, Layers third
+                  and Bitcoin (On Chain) as Exchange Decentralized.
                 </p>
               )}
             />
