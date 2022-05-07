@@ -1,7 +1,6 @@
 # Portico Exchange-frontend ⚡️
 
 [![Build Status](https://travis-ci.org/BoltzExchange/boltz-frontend.svg?branch=master)](https://travis-ci.org/BoltzExchange/boltz-frontend)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/23c4d816-70a4-4c7a-954e-c278d334ee53/deploy-status)](https://app.netlify.com/sites/snazzy-souffle-d2f5b3/deploys)
 
 Frontend for Portico Exchange. 
 
@@ -17,8 +16,6 @@ Node.Js/NPM and Node Lightning Network or LND
 `npm run docker:regtest`
 * Start LN 
 `npm run porticoexchangefrontend:geth`
-* Fund a regtest account and deploy latest contracts  
-* Copy boltz.conf to ~/.boltz/boltz.conf and modify as needed  
 * Start the app  
 `npm run start`
 
