@@ -123,7 +123,7 @@ class Faq extends React.Component {
               )}
               content={style => (
                 <p className={style}>
-                  All regular and Lightning wallets are supported by Portico.
+                  All regular and Lightning wallets are supported by Portico until LNURL as Zebedee.
                   Although we encourage you to run a full node and manage your
                   own keys, there are custodial wallets solutions, like{' '}
                   <Link to={'https://bluewallet.io/'} text={'BlueWallet'} />,
@@ -175,7 +175,7 @@ class Faq extends React.Component {
               content={style => (
                 <p className={style}>
                   Portico Exchange is a fork of <Link to={'https://boltz.exchange'} text={'Boltz'} />. 
-                  We are a team of independent developers working to unique RSK, Liquid Network, Lightning Network, Layers third
+                  We are a team of independent developers working to unite RSK, Liquid Network, Lightning Network, Layers third
                   and Bitcoin (On Chain) as Exchange Decentralized.
                 </p>
               )}
